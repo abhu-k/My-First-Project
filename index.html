@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Project 1</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <h1>STRUCTURE PERFECTED.</h1>
+    <button id="click-me" >CLICK TO UNLOCK CSS</button>
+    <h1></h1>
+    <button id="reset" >reset</button>
+    <script> 
+        document.getElementById("click-me").onclick = function() {
+            this.textContent = "CSS UNLOCKED" ;
+            this.style.background = "green" ;
+        };  
+
+        document.getElementById("reset").onclick = function()
+        {
+            document.getElementById("click-me").textContent="CLICK TO UNLOCK CSS";
+            document.getElementById("click-me").style.background = "red";
+        };
+
+    </script>
+</body>
+
+</html>
