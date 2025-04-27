@@ -18,3 +18,11 @@ button{
     color: white;
     margin-left: 10px;
 }
+.light-mode{
+    background: white;
+    color: black;
+}
+.light-mode button{
+    background: dodgerblue;
+    color: white;
+}
